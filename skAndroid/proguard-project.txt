@@ -1,0 +1,88 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-libraryjars libs/spring-android-core-1.0.1.RELEASE.jar
+-libraryjars libs/spring-android-rest-template-1.0.1.RELEASE.jar
+-libraryjars libs/jackson-databind-2.3.2.jar
+-libraryjars libs/jackson-core-2.3.2.jar
+-libraryjars libs/jackson-annotations-2.3.2.jar
+-dontpreverify
+-optimizations !field/removal/writeonly,!field/marking/private,!class/merging/*,!code/allocation/variable
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+-keep public class com.android.vending.licensing.ILicensingService
+-assumenosideeffects class android.util.Log { *; }
+# remove logging wrapper
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+-keepclasseswithmembernames class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembernames class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+-keepattributes **
+-keepattributes *Annotation*,EnclosingMethod
+
+-keep class javax.annotation.** { *; }
+-keep interface javax.annotation.** { *; }
+
+-keep class javax.lang.** { *; }
+-keep interface javax.lang.** { *; }
+
+-keep class com.googlecode.androidannotations.** { *; }
+-keep interface com.googlecode.androidannotations.** { *; }
+
+-keep class sun.nio.** { *; }
+-keep interface sun.nio.** { *; }
+-keep class android.support.v4.** { *; }
+-keep class com.fasterxml.jackson.** { *; }
+-keep interface com.fasterxml.jackson.** { *; }
+-keep class org.springframework.** { *; }
+-keep interface org.springframework.** { *; }
+-keep public class com.skAndroid.dto.** {*;}
+-dontwarn com.googlecode.androidannotations.**
+-dontwarn com.sun.**
+-dontwarn android.support.v4.**
+-dontwarn com.fasterxml.jackson.**
+-dontwarn org.springframework.**
+#-dontwarn com.fasterxml.jackson.core.**
+#-dontwarn android.support.**

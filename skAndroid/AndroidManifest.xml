@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.skAndroid"
+          android:versionCode="4"
+          android:versionName="1.0.3">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-sdk android:minSdkVersion="11"
+              android:targetSdkVersion="16"/>
+    <application android:label="@string/app_name"
+                 android:icon="@drawable/logo2"
+                 android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+                 >
+        <activity android:name=".activity.MainActivity"
+                  android:screenOrientation="portrait"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!--<service android:enabled="true" android:name=".service.RemindService" />-->
+        <activity android:name=".activity.CourseActivity"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.LessonActivity"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.LessonDetailActivity"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.ReminderActivity"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.GuideActivity"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name=".activity.NotificationActivity"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/alarm_alert"
+                  ></activity>
+        <receiver android:name=".service.AlarmReceive">
+        </receiver>
+        <service android:name=".service.TTSService" android:enabled="true"></service>
+    </application>
+</manifest>

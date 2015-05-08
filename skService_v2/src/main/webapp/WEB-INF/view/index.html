@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dynamically Duplicating a form, by Tristan Denyer</title>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* ==========================================================================
+            Demo using Bootstrap 3.0.0
+            You don't need any of the following styles for the form to work properly,
+            these are just helpers for the demo/test page.
+          ========================================================================== */
+        #wrapper {
+            width:595px;
+            margin:0 auto;
+        }
+        legend {
+            margin-top: 20px;
+        }
+        #attribution {
+            font-size:12px;
+            color:#999;
+            padding:20px;
+            margin:20px 0;
+            border-top:1px solid #ccc;
+        }
+        #O_o {
+            text-align: center;
+            background: #33577b;
+            color: #b4c9dd;
+            border-bottom: 1px solid #294663;
+        }
+        #O_o a:link, #O_o a:visited {
+            color: #b4c9dd;
+            border-bottom: #b4c9dd;
+            display: block;
+            padding: 8px;
+            text-decoration: none;
+        }
+        #O_o a:hover, #O_o a:active {
+            color: #fff;
+            border-bottom: #fff;
+            text-decoration: none;
+        }
+        @media only screen and (max-width: 620px), only screen and (max-device-width: 620px) {
+            #wrapper {
+                width: 90%;
+            }
+            legend {
+                font-size: 24px;
+                font-weight: 500;
+            }
+        }
+    </style>
+    <script src="//www.ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        // if Google is down, it looks to local file...
+        if (typeof jQuery == 'undefined') {
+            document.write(unescape("%3Cscript src='js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
+        }
+    </script>
+    <script type="text/javascript" src="js/clone-form-td.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script> <!-- only added as a smoke test for js conflicts -->
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="control-group" id="fields">
+            <label class="control-label" for="field1">Nice Multiple Form Fields</label>
+            <div class="controls">
+                <form role="form" autocomplete="off">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <input class="form-control" placeholder="Name this snippet" name="voca" type="text" value="Dynamic Form Fields - Add &amp; Remove BS3">
+                        </div>
+                        <div class="col-md-3">
+                            <input class="form-control" placeholder="Name this snippet" name="vocatrans" type="text" value="Dynamic Form Fields - Add &amp; Remove BS3">
+                        </div>
+                        <div class="col-md-1">
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                        <button type="button" class="btn btn-default" id="btn-add">
+                            <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> Add More
+                        </button>
+                    </div>
+                </form>
+                <br>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+<RelativeLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="This is detail course "
+              android:id="@+id/courseDetailDialog"
+              android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+              android:textSize="20sp"/>
+</RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+            >
+        <Button android:layout_width="wrap_content"
+                android:background="@drawable/borderbutton"
+                android:layout_centerInParent="true"
+                android:layout_height="30dp"
+                android:textColor="@android:color/white"
+                android:id="@+id/btnCourseDetail"
+                android:text="OK"
+
+                />
+    </RelativeLayout>
+</LinearLayout>

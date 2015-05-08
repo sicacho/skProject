@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="110dp"
+              android:layout_height="110dp">
+    <RelativeLayout android:layout_width="100dp"
+                  android:background="@drawable/borderlesson"
+                  android:layout_height="100dp">
+        <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/lessonNum"
+                android:textColor="@android:color/white"
+                android:text="99"
+                android:textSize="40sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+    </RelativeLayout>
+
+</LinearLayout>

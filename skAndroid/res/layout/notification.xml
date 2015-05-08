@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:circular="http://schemas.android.com/apk/res/com.skAndroid"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:weightSum="1" android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_vertical"
+                      android:layout_marginLeft="12dp"
+                      android:layout_marginRight="12dp"
+                      android:orientation="vertical">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1">
+                <RelativeLayout android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                    <Button
+                            android:background="@drawable/buttonvolume"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:visibility="visible"
+                            android:id="@+id/btnListen"
+                            android:layout_gravity="center_vertical"
+                            />
+                    <!--<ProgressBar-->
+                            <!--style="?android:attr/progressBarStyleLarge"-->
+                            <!--android:layout_width="40dp"-->
+                            <!--android:layout_height="40dp"-->
+                            <!--android:id="@+id/progressBarVolume"/>-->
+                </RelativeLayout>
+                <LinearLayout
+                        android:layout_marginLeft="12dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true">
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="sentence"
+                            android:textSize="15sp"
+                            android:textColor="@android:color/background_dark"
+                            android:id="@+id/txtSentence"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="SentenceTrans"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp"
+                            android:id="@+id/txtSentenceTrans"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                    android:id="@+id/layoutCheck"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="0.65">
+                <Button
+                        android:background="@drawable/buttonvoice"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/btnSpeak"
+                        />
+                <ProgressBar
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:id="@+id/progressBar"
+                        />
+                <!--<Button-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:background="@drawable/target2"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:text="200"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="20dp"-->
+                <!--android:textColor="#f93434"-->
+                <!--android:id="@+id/btnTarget"-->
+                <!--android:onClick="onSetTargetHandle"-->
+                <!--/>-->
+            </LinearLayout>
+
+            <RelativeLayout
+                    android:id="@+id/layoutSpeaktext"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text=""
+                        android:textSize="15sp"
+                        android:textColor="#09d53e"
+                        android:id="@+id/txtSpeak"
+                        android:layout_below="@+id/linearLayout"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"/>
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:id="@+id/linearLayout"
+                              android:layout_centerHorizontal="true">'
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_gravity="center_vertical"
+                              android:textColor="@android:color/background_dark"
+                              android:text="Score "
+                              android:textSize="25sp"/>
+                    <com.skAndroid.animation.CircularProgressBar
+                            android:id="@+id/scoreProgressBar"
+                            style="@style/Widget.ProgressBar.Holo.CircularProgressBar"
+                            android:layout_width="38dp"
+                            android:layout_height="38dp"
+                            android:layout_marginLeft="10dp"
+                            circular:subtitle=""
+                            circular:title="" />
+                    <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginLeft="30dp"
+                              android:textColor="@android:color/background_dark"
+                              android:text="Times "
+                              android:layout_gravity="center_vertical"
+                              android:textSize="25sp"/>
+                    <RelativeLayout android:layout_width="40dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:background="@drawable/borderlesson"
+                                    android:layout_height="40dp">
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="@android:color/white"
+                                android:text="7"
+                                android:textSize="15sp"
+                                android:id="@+id/txtNumberRead"
+                                android:layout_centerInParent="true"
+                                android:layout_marginLeft="10dp"
+                                />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:background="@drawable/bordernotifi"
+                  android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button android:layout_width="wrap_content"
+            android:text="Ignore"
+            android:id="@+id/btnNotiaction"
+            android:background="@drawable/borderbutton"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_height="35dp"/>
+</LinearLayout>

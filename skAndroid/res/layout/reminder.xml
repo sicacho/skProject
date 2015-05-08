@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@android:color/white"
+              android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/layoutReminder"
+                    android:background="@android:color/holo_blue_dark">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerInParent="true"
+                  android:textSize="25sp"
+                  android:textColor="@android:color/white"
+                  android:text="Reminder"/>
+        <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/back"
+                android:id="@+id/btnBack"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                />
+        <Button android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Start Remind"
+                android:textSize="12sp"
+                android:background="@drawable/borderbuttonred"
+                android:textColor="@android:color/white"
+                android:id="@+id/btnActionRemind"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_below="@+id/layoutReminder"
+                    android:layout_height="wrap_content">
+        <ListView android:layout_width="wrap_content"
+                  android:id="@+id/listReminder"
+                  android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</RelativeLayout>

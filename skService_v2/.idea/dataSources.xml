@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="56087784">
+    <data-source source="LOCAL" name="skandroid" uuid="85dd6ff3-b824-492e-ac02-10328c8ce9aa">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://23.92.65.132:3306/skandroid</jdbc-url>
+      <user-name>skandroid</user-name>
+      <user-password>dfc1dfc2dfeadfc4dfcddf9bdf98df99</user-password>
+      <schema-pattern>skandroid.*</schema-pattern>
+      <default-schemas>skandroid.*</default-schemas>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="skandroid" uuid="85dd6ff3-b824-492e-ac02-10328c8ce9aa">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+    <schema name="" catalog="skandroid"/>
+    <table name="Tblcourse" schema="" catalog="skandroid" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="userID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="courseName" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="detail" sqlType="MEDIUMTEXT" precision="16777215" scale="0" nullable="true" jdbcType="-1"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="courseOfUser" columns="userID" ref-table="Tbluser" ref-schema="" ref-catalog="skandroid" ref-columns="id" update-rule="0" delete-rule="0" deferrability="2"/>
+      <exported-key name="lessonID" table="Tbllesson" schema="" catalog="skandroid" columns="courseID"/>
+      <index name="courseID_idx" unique="false" columns="userID"/>
+    </table>
+    <table name="Tbllesson" schema="" catalog="skandroid" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="courseID" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="lessonName" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="lessonNumber" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="lessonID" columns="courseID" ref-table="Tblcourse" ref-schema="" ref-catalog="skandroid" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="tblLessonForeignKey" table="Tbllessondetail" schema="" catalog="skandroid" columns="lessonID"/>
+      <index name="lessonID_idx" unique="false" columns="courseID"/>
+    </table>
+    <table name="Tbllessondetail" schema="" catalog="skandroid" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="lessonID" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="sentence" sqlType="TINYTEXT" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="sentenceTrans" sqlType="TINYTEXT" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="voiceUrl" sqlType="TINYTEXT" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="type" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="tblLessonForeignKey" columns="lessonID" ref-table="Tbllesson" ref-schema="" ref-catalog="skandroid" ref-columns="id" update-rule="0" delete-rule="0" deferrability="2"/>
+      <index name="lessonDetailID_idx" unique="false" columns="lessonID"/>
+    </table>
+    <table name="Tbluser" schema="" catalog="skandroid" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="username" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="courseOfUser" table="Tblcourse" schema="" catalog="skandroid" columns="userID"/>
+    </table>
+  </data-source>
+</component>

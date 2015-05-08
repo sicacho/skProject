@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@android:color/white"
+              android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/layoutGuide"
+                    android:background="@android:color/holo_blue_dark"
+                    android:orientation="vertical">
+        <Button android:layout_width="30dp"
+                android:background="@drawable/back"
+                android:id="@+id/btnBack"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_height="30dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="GUIDE"
+                android:textSize="25sp"
+                android:id="@+id/textView"
+                android:layout_centerInParent="true"
+                />
+    </RelativeLayout>
+    <LinearLayout android:layout_width="310dp"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="10dp"
+                  android:id="@+id/layoutHowto"
+                  android:onClick="howtouseHandle"
+                  android:layout_centerHorizontal="true"
+                  android:layout_below="@+id/layoutGuide"
+                  android:layout_height="wrap_content">
+        <ImageView android:layout_width="40dp"
+                   android:layout_marginLeft="10dp"
+                   android:src="@drawable/guidecourse"
+                   android:layout_gravity="center_vertical"
+                   android:layout_height="40dp"/>
+        <TextView android:layout_width="wrap_content"
+                  android:text="How to use this app "
+                  android:layout_marginLeft="10dp"
+                  android:layout_gravity="center_vertical"
+                  android:textSize="20sp"
+                  android:layout_height="wrap_content" android:textColor="#ff3b5fff"/>
+        <ImageView android:layout_width="30dp"
+                   android:src="@drawable/faq"
+                   android:layout_gravity="center_vertical"
+                   android:layout_height="30dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_marginTop="10dp"
+                  android:layout_below="@+id/layoutHowto"
+                  android:id="@+id/line1"
+                  android:background="@drawable/bordernotifi"
+                  android:layout_height="wrap_content"
+            >
+        <TextView android:layout_width="wrap_content" android:layout_height="3dp"/>
+    </LinearLayout>
+    <!--<LinearLayout android:layout_width="310dp"-->
+                  <!--android:orientation="horizontal"-->
+                  <!--android:layout_marginTop="10dp"-->
+                  <!--android:id="@+id/layoutHowto2"-->
+                  <!--android:layout_centerHorizontal="true"-->
+                  <!--android:layout_below="@+id/line1"-->
+                  <!--android:layout_height="wrap_content">-->
+        <!--<ImageView android:layout_width="40dp"-->
+                   <!--android:layout_marginLeft="10dp"-->
+                   <!--android:src="@drawable/guidecourse"-->
+                   <!--android:layout_gravity="center_vertical"-->
+                   <!--android:layout_height="40dp"/>-->
+        <!--<TextView android:layout_width="wrap_content"-->
+                  <!--android:text="What is Reminder "-->
+                  <!--android:layout_marginLeft="10dp"-->
+                  <!--android:layout_gravity="center_vertical"-->
+                  <!--android:textSize="20sp"-->
+                  <!--android:layout_height="wrap_content" android:textColor="#ff3b5fff"/>-->
+        <!--<ImageView android:layout_width="30dp"-->
+                   <!--android:src="@drawable/faq"-->
+                   <!--android:layout_gravity="center_vertical"-->
+                   <!--android:layout_height="30dp"/>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout android:layout_width="match_parent"-->
+                  <!--android:layout_marginTop="10dp"-->
+                  <!--android:layout_below="@+id/layoutHowto"-->
+                  <!--android:id="@+id/line2"-->
+                  <!--android:background="@drawable/bordernotifi"-->
+                  <!--android:layout_height="wrap_content"-->
+            <!-->-->
+        <!--<TextView android:layout_width="wrap_content" android:layout_height="3dp"/>-->
+    <!--</LinearLayout>-->
+    <LinearLayout android:layout_width="310dp"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="10dp"
+                  android:id="@+id/layoutHowto3"
+                  android:onClick="createCourseHandle"
+                  android:layout_centerHorizontal="true"
+                  android:layout_below="@+id/line1"
+                  android:layout_height="wrap_content">
+        <ImageView android:layout_width="40dp"
+                   android:layout_marginLeft="10dp"
+                   android:src="@drawable/guidecourse"
+                   android:layout_gravity="center_vertical"
+                   android:layout_height="40dp"/>
+        <TextView android:layout_width="wrap_content"
+                  android:text="Want create your course"
+                  android:layout_marginLeft="10dp"
+                  android:layout_gravity="center_vertical"
+                  android:textSize="20sp"
+                  android:layout_height="wrap_content" android:textColor="#ff3b5fff"/>
+        <ImageView android:layout_width="30dp"
+                   android:src="@drawable/faq"
+                   android:layout_gravity="center_vertical"
+                   android:layout_height="30dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_marginTop="10dp"
+                  android:layout_below="@+id/layoutHowto3"
+                  android:id="@+id/line3"
+                  android:background="@drawable/bordernotifi"
+                  android:layout_height="wrap_content"
+            >
+        <TextView android:layout_width="wrap_content" android:layout_height="3dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="310dp"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="10dp"
+                  android:id="@+id/layoutHowto4"
+                  android:onClick="contactUsHandle"
+                  android:layout_centerHorizontal="true"
+                  android:layout_below="@+id/line3"
+                  android:layout_height="wrap_content">
+        <ImageView android:layout_width="40dp"
+                   android:layout_marginLeft="10dp"
+                   android:src="@drawable/reportcontact"
+                   android:layout_gravity="center_vertical"
+                   android:layout_height="40dp"/>
+        <TextView android:layout_width="wrap_content"
+                  android:text="Contact Us"
+                  android:layout_marginLeft="10dp"
+                  android:layout_gravity="center_vertical"
+                  android:textSize="20sp"
+                  android:layout_height="wrap_content" android:textColor="#ff3b5fff"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_marginTop="10dp"
+                  android:layout_below="@+id/layoutHowto4"
+                  android:id="@+id/line4"
+                  android:background="@drawable/bordernotifi"
+                  android:layout_height="wrap_content"
+            >
+        <TextView android:layout_width="wrap_content" android:layout_height="3dp"/>
+    </LinearLayout>
+</RelativeLayout>

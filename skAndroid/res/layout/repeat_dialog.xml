@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView android:layout_width="wrap_content"
+              android:text="Remind after "
+              android:textColor="@android:color/holo_blue_dark"
+              android:textSize="20sp"
+              android:id="@+id/txtDialogRemind"
+              android:layout_centerHorizontal="true"
+              android:layout_height="wrap_content"/>
+    <NumberPicker android:layout_width="wrap_content"
+                  android:layout_below="@+id/txtDialogRemind"
+                  android:id="@+id/numberPickerRemind"
+                  android:layout_centerHorizontal="true"
+                  android:layout_height="wrap_content"/>
+    <TextView android:layout_width="wrap_content"
+              android:text="minutes"
+              android:id="@+id/txtMinutes"
+              android:textColor="@android:color/holo_blue_dark"
+              android:textSize="20sp"
+              android:layout_below="@+id/numberPickerRemind"
+              android:layout_centerHorizontal="true"
+              android:layout_height="wrap_content"/>
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Auto read the question (sentence)"
+            android:id="@+id/checkBoxAuto"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/txtMinutes"
+            />
+    <!--<CheckBox-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Disable read function (for poor perfomance phone)"-->
+            <!--android:id="@+id/checkBoxPerfomance"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_below="@+id/checkBoxAuto"-->
+            <!--/>-->
+</RelativeLayout>
