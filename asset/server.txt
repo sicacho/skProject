@@ -1,0 +1,419 @@
+***********
+t008_gftth_hoangdh
+pass:71g36y
+***********
+
+Main IP: 23.92.65.132
+
+Root Password: 70aabf2df853
+-----------------
+Domain
+HyipMonitorVn ( goddady )
+K1h2a3n4g
+5432
+sicacho (namecheap)
+khang123
+----------
+Generate Private Key ( Certificates Wizard - server SSL )
+K1h2a3n4gtruong
+
+***************
+
+Save Private Key
+ 
+Copy and paste the content from the textbox below into a file and save it as ssl.key.
+Make sure, that you do not alter the content and you did not add any spaces! Save it in ASCII format (plain text).
+Allowed are only letters and numbers, without spaces!
+Decrypt the private key with the OpenSSL utility: openssl rsa -in ssl.key -out ssl.key or use the utility from the Tool Box.
+
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+DEK-Info: AES-256-CBC,D074DE2391E1D74A6FC950539D8147F8
+
+fGUGF9H49zOujE43fYHzeRXDiINqYQROKKkJUobebV2gHDQRQ9g7SRzmtQ0GZtNt
+ye896gs7gW4lmiztn9auxVQROQ/tUQ3nOsqKyRM6FM54gHc+QxSEfexdQhaBTK3p
+QKaDoKH5by9zOAsmoL31tjoP99zmRFGoiMr42woSPg7wCSOBfjjNMOElucoK4l2F
+foxxWa4eLrYmsciozZA6Ovro0bCtZGeslXBzGF+yz572SBEF/M1r6hpTulicewRc
+fWWLPFFLhP31CCtqmM0bwnhcDAQJO6nxyqfAqyxjqaDjTYeyP2gd3q7iFFPwc0Ys
+EngJeKI+dggzyLU1dByZOl0TKyItFAwAXH2GA8dv6GVsG15f+qXPRNjiOlGi7qOP
+JtClYRW+u3jLsydHdFt2JtS/lZXQGRSoQ00E59CMDltE8IvcRUjRBAzkeYyg/4r/
+SBB7OyOiIlDlFdHGORX/NlFZ+RFjzGEUrWMeBDZuT5O3Mb1cpvPyBr8PA1Ke9+VA
+nhjMuPPnzp2yc3o+0lllwkBhPVgey5PjySmydwEvy9UuUkbUz9+M5SZL8hs1MFsc
+dfhCcPkRzzaIUGskms6WWwToyHv+oCv5UfFgYioRhjABiyl32FdaTasfj/iLxjP4
+5CAHqfKHH5Dbnr37T9y7OaZDBTJSr+3JHD+cSIil8f/6A3fl36CUvzoVVGoguqGH
+rCTppU1qVINcVlIhj3UREE+nMneD+TmYnvCbhqB1ZGPn9HUXetJiRkyBEdD6Jf3Y
+3I3a/OC3I2WWtkPxZSUNbno84oYKtp5GSUZL3V14ahG94TUEYzvvA0lTUfRem54x
+DIZn0VSmveamytt3p7ecfqP1Nv85bWJZ7E5AaxC0jn8Gtq4NzCsLIqeORB9Q1zjn
+3EjmP5OMwdUIkv1vXjB6VQ7ONgazOpGxUh3BCCHcNlCpbMfze6iqXVrxTf+37Vv+
+4KhZ6CCm1TKe5k1DjPgYfSwgCe9XVi2z6u0nadKvFS0R5ypWw78AWVyc9ptUFHJ8
+oiM+gT49DyJVm6EHb9N2McSyuYsw6GrFkkosSb4uF7zuMYaBdAbjbZIMeBqBNAbF
+EdiJ2nGmOkoRXflPCoxMpH3fU+FYbYggHulWytudGKl2W2Di58Tjx+B6l/qsU3dh
+DRJHUWR5J+Bs5YS71pWLUZy4dZWjbKCovNabrm9miq7buTpXL/HYHR48f0Qe74bW
+0V8dGbdcRjuKyUghZdH/oWRmGyiq4dUUT8FrRAQsq1QZ5J33CCBps+tKvNCQ3v+8
+Kn7WW4moPkqpuUn7I3YWfFyvRgEq/ucnjCwIAf8mVMifORaI0I6hy5dj90f0YXCe
+vsSZaI1rFkTLsPjD3e6GKfxh1BwLdPZzeuqsbRFBviHUlUySH31ZNq3lrfri6ZJz
+q91FL4sSvnDB6spkFURf6ZhgK5M28aWn7ixPWlwjEHVwCdC8g4qU5p04HXFXa5+c
+AVKwEdvN6hvee9VjViu2dbzWr5vuVNFUYBrkhZummJwP3gH+uvQVITDmeFybA5rj
+yYIuWbxV0ez9ygrJ2hPWpvpPTpcXSokdaGQCUEt0ZW/0vmepz1kaTrzlJTnHqiJ/
+-----END RSA PRIVATE KEY-----
+
+***************
+
+( second time ) 
+
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+DEK-Info: AES-256-CBC,43B53E090D7A5CFEB0DD01E6BD6FD09A
+
+aR2s3aNR/TveF4TN89l5wrNNEvMDo99I3Xp8j1I+gmrwAUFlFVMJX1wNjGtpeFgo
+w2hNHONdt+UGhOHiwsDCb9pvyK1wrAe81bRlWkGOC76fNrIFnyu7in4SoG71Ec/O
+mb/EevCpb/cq5Fs3Le2lK0lWaJe0MAlfKC4zHzNi1XW10aKsumbAKqFPMEd60x0A
+9qHfUxNfrrx7pBgcOaZKgchzz+EodVsFGOrpRizWyGJtTdhuLCUwgOE205YdobGg
+7hEmmbzhtd80K09N4VA+JKQaSogn72oH4gFs/KOrQrRHIQMjJX2XRyWNHwYYFJHl
+v5MuaN9Ynsx3UwyisO2GVEHmkwQSIGpuRtjQyrGNUQvH4+jESd03yMQ2Y5kEg4Kj
+A89xWt4sdlaUAdF33OM0XBFDQiy7A1impg3l/w6BvmBWwIEC4cHpZIkbaWJCl11I
+f5IgIJCF+QvjvOIpbhLybqRZUUkFSB7P2P53gyzIFSkTeUZ4fAh57GitqTlfSGfr
+zinuXL4oeTt76t9gR55l4sa0258sFt6kPHjGAaLenrGEDhrXHeYDcYzeKY4sMNRN
+GkJUO0f/PBrm/fQqF0AAqTC6hzkzBKgp8LD0V0imaFHVfyqVRUjk2nh200e59LVj
+WPW6tz6kTg7FNDhNhIsOVkQ98q8H6D98yjlHkNlFh89fSDvSv8qSnU9Fmi0fp0Pi
+IV1w07oEUNus/ZwBz5sUH4bnciRDtf//1VHTWyrwM2wDGnon+O3sAtvBCLXiVbM4
+IbMBj/PB4HrKnlk7J+g+Pwd2blu5Hmsou5evGGzCNDmJIT3kFull0PsBbepmnSZV
+lSvJoLlJNB4FPu113/S4DG4UudGnSrJih6b8ZnzvnfPQ6KwzQVasz++FXXV/WdHH
+8ru3iTKMMb0J5g5Ox4x3PM53OEMVy5nS/IRgxwHPM5kmDSyIup/WnwcCI79jK1KE
+hFtgcOctPSi4JEB5rq/osWm8q2W+4FW3qVIM37Guk2guyMWlekAgdOr0BzBK7PXB
+wyFWI4I1f+rHnQxbVfZkgKZilX5Bo7oENv64vnSwCNaBsc2xq9EkJ07kolC94WTJ
+XoLHx5eLfmw0ZzUu5vOgffoQV6I/ahE+EqQM5W6m0I37hOwBxoemdpQPVpd5fu8K
+wSGeGehvHPnVmvZ2r8uG77KrmgOO53/0BvM6y5ga+cNLDquNT/67gRrVkHOpA2Tz
+8U03DlmfmLdW1ngAKa5beZCD6DLVihdZefOWP5vkpq+JkyPu+4gFuZaeEHsL2OWK
+d2Hq+VVxGvz+IIodGo3jZAMT4z95KY+sBtGbfTtTFZJ2Go1nQ5E/b0xdjbvGXgYI
+wtdufMGic2SeJBWWB4XRzGwv6a1QFV2cLcFffK4104SD+KOZJ2pvO3ew1V67EgLh
+HVH0+iqMLJeGZJEVkWVrBjOG40ZtBjcB9X9PKq6E68QWW1x5Cxhm/hhN3N8ieq9a
+b9D6Z0gQbgo+wjmPP/WSsp9/Ff4G1lUSekFoUxO6is8IV8VJMlFLdmfe3chVVWJ+
+VHlUfXqJZt+qH3XZKgzvk9REX1sgA4z45EOm8IPRir0jolzY8Um+qrWoWjkA02AS
+-----END RSA PRIVATE KEY-----
+
+-----BEGIN CERTIFICATE-----(firstTime)
+MIIGYDCCBUigAwIBAgIHBandA4fivjANBgkqhkiG9w0BAQsFADCBjDELMAkGA1UE
+BhMCSUwxFjAUBgNVBAoTDVN0YXJ0Q29tIEx0ZC4xKzApBgNVBAsTIlNlY3VyZSBE
+aWdpdGFsIENlcnRpZmljYXRlIFNpZ25pbmcxODA2BgNVBAMTL1N0YXJ0Q29tIENs
+YXNzIDEgUHJpbWFyeSBJbnRlcm1lZGlhdGUgU2VydmVyIENBMB4XDTE1MDUwOTIw
+NDEzOFoXDTE2MDUwOTE0MDM0MVowbzELMAkGA1UEBhMCVk4xGDAWBgNVBAMTD3d3
+dy5sYXp5ZW5nLmNvbTFGMEQGCSqGSIb3DQEJARY3OWYzNDQxMTBkYzA1NDcwMzg2
+MzY1NjVhZGYzZjhhMDgucHJvdGVjdEB3aG9pc2d1YXJkLmNvbTCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBANGUsd1Uscfy9KFLNxrirQeI6aS+WCp1YXVM
+zNIvTTxQW7zCxTlw4mAEH3pqjEhPYMjMjy90QjExf1KcpDuSYjK8ZTgLV6r1WWVS
+DFmn7cSpZvDlTBwLND+cUMnRFbyLCr+Qo5k02xdOnYEEDjY27zi3TGdormWj/gQ6
+AIEAyGG39DccnCYf0VsbL6aI8xQlHN7YPGpQGxS9XIKA/gCXxdT+CjjnnTipjEvz
+KMNxEpM9XcPyfVm4OAUGkYOJ2j5mVxwxaRlFPqK4GmAaBrbfG6/0qLQrxh6TDMXf
+9yr+hS8NztgRwxSAI0ujMjO7Y1JFd9yKOfp5tAJim3rEiZIwd9kCAwEAAaOCAuEw
+ggLdMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgOoMBMGA1UdJQQMMAoGCCsGAQUFBwMB
+MB0GA1UdDgQWBBRd+pXo2gsJQPQVUKmNWSEEgsiLLzAfBgNVHSMEGDAWgBTrQjTQ
+mLCrn/Qbawj3zGQu7w4sRTAnBgNVHREEIDAegg93d3cubGF6eWVuZy5jb22CC2xh
+enllbmcuY29tMIIBVgYDVR0gBIIBTTCCAUkwCAYGZ4EMAQIBMIIBOwYLKwYBBAGB
+tTcBAgMwggEqMC4GCCsGAQUFBwIBFiJodHRwOi8vd3d3LnN0YXJ0c3NsLmNvbS9w
+b2xpY3kucGRmMIH3BggrBgEFBQcCAjCB6jAnFiBTdGFydENvbSBDZXJ0aWZpY2F0
+aW9uIEF1dGhvcml0eTADAgEBGoG+VGhpcyBjZXJ0aWZpY2F0ZSB3YXMgaXNzdWVk
+IGFjY29yZGluZyB0byB0aGUgQ2xhc3MgMSBWYWxpZGF0aW9uIHJlcXVpcmVtZW50
+cyBvZiB0aGUgU3RhcnRDb20gQ0EgcG9saWN5LCByZWxpYW5jZSBvbmx5IGZvciB0
+aGUgaW50ZW5kZWQgcHVycG9zZSBpbiBjb21wbGlhbmNlIG9mIHRoZSByZWx5aW5n
+IHBhcnR5IG9ibGlnYXRpb25zLjA1BgNVHR8ELjAsMCqgKKAmhiRodHRwOi8vY3Js
+LnN0YXJ0c3NsLmNvbS9jcnQxLWNybC5jcmwwgY4GCCsGAQUFBwEBBIGBMH8wOQYI
+KwYBBQUHMAGGLWh0dHA6Ly9vY3NwLnN0YXJ0c3NsLmNvbS9zdWIvY2xhc3MxL3Nl
+cnZlci9jYTBCBggrBgEFBQcwAoY2aHR0cDovL2FpYS5zdGFydHNzbC5jb20vY2Vy
+dHMvc3ViLmNsYXNzMS5zZXJ2ZXIuY2EuY3J0MCMGA1UdEgQcMBqGGGh0dHA6Ly93
+d3cuc3RhcnRzc2wuY29tLzANBgkqhkiG9w0BAQsFAAOCAQEAP+zIiQkqw7UvAITb
+2XDbQnpxB+I/zzdrkmqzgj3zFqMKuRGrpLDuIhf4tiTJtDiJBhtlXDi3KuQKmOgT
+9P38J1fvShaXU6cLtnFRG8BKJZxZXmC/KAVUlnwtZchnYRCy9IdNx6rtxbA1fSoJ
+fnvNE+BrWlW93Th9FY1dR99g/9oFhPza6uEzAcqJgCgqVADcfOehRp8kEQ479Bfr
+cfEHMb7TTCBliQ9upv5MQuF/pyxY6ywzCxtCU+wxla3l8ms2RQhIb7zSlJIbZRoF
+8241KGhKQwmr1MlODCB4vFAhOWW4h0rpv84opquWbc8LbVJje/3s8Oxr0aRRKmMW
+m8KJRQ==
+-----END CERTIFICATE-----
+
+-----------------
+Setting the "JAVA_HOME" environment variable
+
+To set the JAVA_HOME environment variable, which is needed for some programs, first find out the path of your Java installation:
+
+sudo update-alternatives --config java
+
+It returns something like:
+
+There are 2 choices for the alternative java (providing /usr/bin/java).
+
+Selection    Path                                            Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-7-oracle/jre/bin/java          1062      auto mode
+  1            /usr/lib/jvm/java-6-openjdk-amd64/jre/bin/java   1061      manual mode
+  2            /usr/lib/jvm/java-7-oracle/jre/bin/java          1062      manual mode
+
+Press enter to keep the current choice[*], or type selection number:
+
+The path of the installation is for each:
+
+    /usr/lib/jvm/java-7-oracle
+
+    /usr/lib/jvm/java-6-openjdk-amd64
+
+    /usr/lib/jvm/java-7-oracle
+
+Copy the path from your preferred installation and then edit the file /etc/environment:
+
+sudo nano /etc/environment
+
+In this file, add the following line (replacing YOUR_PATH by the just copied path):
+
+JAVA_HOME="YOUR_PATH"
+
+That should be enough to set the environment variable. Now reload this file:
+
+source /etc/environment
+
+Test it by executing:
+
+echo $JAVA_HOME
+
+If it returns the just set path, the environment variable has been set successfully. If it doesn't, please make sure you followed all steps correctly.
+-----------------
+mysql -uroot -pkhang@2812
+CREATE SCHEMA `skandroid` ;
+CREATE USER 'skandroid'@'localhost' IDENTIFIED BY 'kh@ng123';
+GRANT USAGE ON *.* TO 'skandroid'@'%' IDENTIFIED BY 'kh@ng123';
+GRANT ALL PRIVILEGES ON skandroid.* TO 'skandroid'@'%' IDENTIFIED BY 'kh@ng123';
+GRANT USAGE ON *.* TO 'skandroid'@'%' IDENTIFIED BY 'kh@ng123';
+GRANT ALL PRIVILEGES ON skandroid_test.* TO 'skandroid'@'%' IDENTIFIED BY 'kh@ng123';
+CREATE DATABASE wordpress;
+CREATE USER 'lazyengblog'@'localhost' IDENTIFIED BY 'kh@ng123';
+GRANT ALL PRIVILEGES ON wordpress.* TO 'lazyengblog'@'%' IDENTIFIED BY 'kh@ng123';
+****vim etc/mysql/my.cnf ( comment lai bind address = 127.0.0.1 )
+******
+UPDATE mysql.user SET Password=PASSWORD('khang@2812') WHERE User='root';
+FLUSH PRIVILEGES;
+mysqldump -u skandroid -p skandroid > 20151801.sql
+----------------------
+
+set AUTHBIND=yes in /etc/default/tomcat7 file
+
+sudo touch /etc/authbind/byport/80
+sudo chmod 500 /etc/authbind/byport/80
+sudo chown tomcat7 /etc/authbind/byport/80
+-----------------------
+lib file tomcat7 (/usr/share/tomcat7/lib)
+-----------------------
+
+password vnc khang@2812
+password view only khang123
+--------------------
+
+ERROR : /var/lib/dpkg/info/mysql-server-5.5.postinst: line 144: logger: command not found ubutu
+
+Had the same issue with mysql-server-5.6 and this solution hs helped me:
+
+launchpad: Bug #392051: [Karmic] logger command not found
+
+Basically, the program logger got messed up;
+
+It can be recreated by reinstalling the package bsdutils:
+
+apt-get --reinstall install bsdutils
+
+or
+
+aptitude reinstall bsdutils
+------------------------------------------------
+Setting virtual host
+
+( Edit Port Tomcat on Server.xml )
+
+ vim /etc/apache2/mods-available/proxy.conf
+sudo ln -s /etc/apache2/mods-available/proxy.load /etc/apache2/mods-enabled
+sudo ln -s /etc/apache2/mods-available/proxy_http.load /etc/apache2/mods-enabled
+sudo /etc/init.d/apache2 restart
+/etc/apache2/sites-available/proxiedhosts
+sudo ln -s /etc/apache2/sites-available/proxiedhosts /etc/apache2/sites-enabled
+sudo /etc/init.d/apache2 restart
+
+**000-default.conf**
+<VirtualHost *:80>
+	# The ServerName directive sets the request scheme, hostname and port that
+	# the server uses to identify itself. This is used when creating
+	# redirection URLs. In the context of virtual hosts, the ServerName
+	# specifies what hostname must appear in the request's Host: header to
+	# match this virtual host. For the default virtual host (this file) this
+	# value is not decisive as it is used as a last resort host regardless.
+	# However, you must set it for any further virtual host explicitly.
+	#ServerName www.example.com
+	ServerAdmin webmaster@localhost
+	DocumentRoot /var/www/html
+	
+
+	# Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+	# error, crit, alert, emerg.
+	# It is also possible to configure the loglevel for particular
+	# modules, e.g.
+	#LogLevel info ssl:warn
+	  ServerName public.server.name
+ 	  ProxyRequests Off
+ 	  ProxyPreserveHost On
+ 	  <Proxy *>
+   		 Order deny,allow
+   		 Allow from all
+  	  </Proxy>
+ 	 ProxyPass /Service http://localhost:8080/Service
+ 	 ProxyPassReverse /Service http://localhost:8080/Service
+	# For most configuration files from conf-available/, which are
+	# enabled or disabled at a global level, it is possible to
+	# include a line for only one particular virtual host. For example the
+	# following line enables the CGI configuration for this host only
+	# after it has been globally disabled with "a2disconf".
+	#Include conf-available/serve-cgi-bin.conf
+</VirtualHost>
+
+<VirtualHost *:443>
+	# The ServerName directive sets the request scheme, hostname and port that
+	# the server uses to identify itself. This is used when creating
+	# redirection URLs. In the context of virtual hosts, the ServerName
+	# specifies what hostname must appear in the request's Host: header to
+	# match this virtual host. For the default virtual host (this file) this
+	# value is not decisive as it is used as a last resort host regardless.
+	# However, you must set it for any further virtual host explicitly.
+	#ServerName www.example.com
+	
+	SSLEngine on                                                                
+	SSLProtocol all -SSLv2                                                      
+	SSLCipherSuite ALL:!ADH:!EXPORT:!SSLv2:RC4+RSA:+HIGH:+MEDIUM                
+
+	SSLCertificateFile /etc/apache2/ssl/ssl.crt                           
+	SSLCertificateKeyFile /etc/apache2/ssl/private.key                        
+	SSLCertificateChainFile /etc/apache2/ssl/sub.class1.server.ca.pem 
+	
+	ServerAdmin webmaster@localhost
+	DocumentRoot /var/www/html
+	
+
+	# Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+	# error, crit, alert, emerg.
+	# It is also possible to configure the loglevel for particular
+	# modules, e.g.
+	#LogLevel info ssl:warn
+	  ServerName public.server.name
+ 	  ProxyRequests Off
+ 	  ProxyPreserveHost On
+ 	  <Proxy *>
+   		 Order deny,allow
+   		 Allow from all
+  	  </Proxy>
+ 	 ProxyPass /Service http://localhost:8080/Service
+ 	 ProxyPassReverse /Service http://localhost:8080/Service
+	# For most configuration files from conf-available/, which are
+	# enabled or disabled at a global level, it is possible to
+	# include a line for only one particular virtual host. For example the
+	# following line enables the CGI configuration for this host only
+	# after it has been globally disabled with "a2disconf".
+	#Include conf-available/serve-cgi-bin.conf
+</VirtualHost>
+
+# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+
+**proxy.conf**
+<IfModule mod_proxy.c>
+
+	# If you want to use apache2 as a forward proxy, uncomment the
+	# 'ProxyRequests On' line and the <Proxy *> block below.
+	# WARNING: Be careful to restrict access inside the <Proxy *> block.
+	# Open proxy servers are dangerous both to your network and to the
+	# Internet at large.
+	#
+	# If you only want to use apache2 as a reverse proxy/gateway in
+	# front of some web application server, you DON'T need
+	# 'ProxyRequests On'.
+
+	ProxyRequests off
+	<Proxy *>
+	   AddDefaultCharset off
+	   Order deny,allow
+	   Allow from all
+	   #Require local
+	</Proxy>
+
+	# Enable/disable the handling of HTTP/1.1 "Via:" headers.
+	# ("Full" adds the server version; "Block" removes all outgoing Via: headers)
+	# Set to one of: Off | On | Full | Block
+	#ProxyVia Off
+</IfModule>
+
+# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+
+-----------------------------------------------
+Setup Wordpress
+
+cd ~
+wget http://wordpress.org/latest.tar.gz
+tar xzvf latest.tar.gz
+sudo apt-get update
+sudo apt-get install php5
+sudo apt-get install libapache2-mod-php5
+cp wp-config-sample.php wp-config.php
+nano wp-config.php
+// ** MySQL settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define('DB_NAME', 'wordpress');
+
+/** MySQL database username */
+define('DB_USER', 'wordpressuser');
+
+/** MySQL database password */
+define('DB_PASSWORD', 'password');
+Step Four — Copy Files to the Document Root
+First, let's manually create the uploads directory beneath the wp-content directory at our document root. This will be the parent directory of our content:
+
+mkdir /var/www/html/wp-content/uploads
+
+We have a directory now to house uploaded files, however the permissions are still too restrictive. We need to allow the web server itself to write to this directory. We can do this by assigning group ownership of this directory to our web server, like this:
+
+sudo chown -R :www-data /var/www/html/wp-content/uploads
+
+This will allow the web server to create files and directories under this directory, which will permit us to upload content to the server.
+****** Php - Your PHP installation appears to be missing the MySQL extension which is required by WordPress**********
+in the end i found a solution First, make sure MySQL server is running. Type the following command at a shell prompt: # /etc/init.d/mysql status
+
+If MySQL is not running, enter: # /etc/init.d/mysql start
+
+If MySQL is not installed, type the following command to install MySQL server: # apt-get install mysql-server
+
+Make sure MySQL module for php5 is installed: # dpkg --list | grep php5-mysql
+
+To install php5-mysql module enter: # apt-get install php5-mysql
+
+Next, restart the Apache2 web server: # /etc/init.d/apache2 restart
+*****************************************HTACCESS***********
+First Step
+Open file as
+sudo vim /etc/apache2/apache2.conf
+
+Second Step
+remove comment sign (#) if you find it before this line ( line number 187 approx.)
+AccessFileName .htaccess
+
+Third Step
+Then find the line where there is
+<Directory /var/www/> Options Indexes FollowSymLinks AllowOverrideNone Require all granted </Directory>
+replace "None" with "All"
+AllowOverride All
+*********************Permissions**********************************
+# Give Ownership To www-data  
+chown -R www-data:www-data /var/www  
+
+Correct Directory Permissions
+
+
+find /var/www -type d -exec chmod 0755 {} \;
+
+
+Correct Files Permissions
+
+
+find /var/www -type f -exec chmod 0644 {} \;
+
+*************************SETUP MONGO******************************************
+

@@ -1,0 +1,13 @@
+lessonID;sentence;sentenceTrans;type
+52;Hello.;Hi.;1
+52;How are you? ;I'm good.;1
+52;How are you? ;Good.;1
+52;Do you speak English? ;A little.;1
+52;Are you American? ;Yes.;1
+52;Where are you from? ;I'm from California.;1
+52;Nice to meet you.;Nice to meet you too.;1
+52;Excuse me, are you American? ;No. ;1
+52;Do you speak English? ;A little, but not very well. ;1
+52;How long have you been here? ;2 months. ;1
+52;What do you do for work? ;I'm a student. ;1
+52;How about you? ;I'm a student too. ;1

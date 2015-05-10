@@ -1,0 +1,125 @@
+id,lessonID,sentence,sentenceTrans,voiceUrl,type
+25,31,Absolutely,"Đúng thế , vậy đó, đương nhiên rồi , chắc là vậy rồi",NULL,0
+26,31,"Absolutely impossible!","Không thể nào! Tuyệt đối không có khả năng đó .",NULL,0
+27,31,"All I have to do is learn English","Tất cả những gì tôi cần làm là học tiếng Anh.",NULL,0
+28,31,"Are you free tomorrow?","Ngày mai cậu rảnh không?",NULL,0
+29,31,"Are you used to the food here?","Cậu ăn có quen đồ ăn ở đây không ?",NULL,0
+30,31,"Be careful.","Cẩn thận/ chú ý",NULL,0
+31,31,"Be my guest.","Cứ tự nhiên / đừng khách sáo !",NULL,0
+32,31,"Better late than never","Đến muộn còn tốt hơn là không đến .",NULL,0
+33,31,"Better luck next time.","Chúc cậu may mắn lần sau.",NULL,0
+34,31,"Better safe than sorry","Cẩn thận sẽ không xảy ra sai sót lớn .",NULL,0
+35,31,"Can I have a day off?","Tôi có thể xin nghỉ một ngày được không?",NULL,0
+36,31,"Can I help?","Cần tôi giúp không ?",NULL,0
+37,32,"Can I take a message?","Có cần tôi chuyển lời không ?",NULL,0
+38,32,"Can I take a rain check?","Cậu có thể mời mình bữa k hác được không?",NULL,0
+39,32,"Can I take your order?","Ông muốn chọn món không ?",NULL,0
+40,32,"Can you give me a wake-up call","Cậu có thể gọi điện đánh thức mình dậy không?",NULL,0
+41,32,"Can you make it","Cậu có thể tới được không?",NULL,0
+42,32,"Can you give me some feedback?","Anh có thể nêu một vài đề nghị cho tôi được không ?",NULL,0
+43,32,"Can I have a word with you?","Tôi có thể nói chuyện với anh một lát được không ?",NULL,0
+44,32,"Cath me later.","Lát nữa đến tìm tôi nhé !",NULL,0
+45,32,"Cheer up!","Vui vẻ lên nào/ Phấn khởi lên nào !",NULL,0
+46,32,"Come in and make yourself at home.","Xin mời vào, đừng khách sáo !",NULL,0
+47,32,"Could I have the bill,please?","Xin cho xem hóa đơn tính tiền ?",NULL,0
+48,32,"Could you drop me off at the airport?","Cậu có thể chở mình đến sân bay được không?",NULL,0
+49,32,"Could you speak slower?","Anh nói chậm lại một chút được không?",NULL,0
+50,32,"Could you take a picture for me?","Có t hể chụp hình giúp tôi không ?",NULL,0
+51,32,"Did you enjoy your flight?","Chuyến bay của ông vui vẻ chứ ?",NULL,0
+52,32,"Did you have a good day today?","Hôm nay vui vẻ không?",NULL,0
+53,32,"Did you have a nice holiday?","Kì nghỉ của cậu vui vẻ chứ?",NULL,0
+54,32,"Did you have fun.","Cậu chơi vui vẻ chứ ?",NULL,0
+55,32,"Dinner is on me.","Bữa tối tôi mời .",NULL,0
+56,32,"Do you have a room available?","Chỗ các ông còn phòng trống không ?",NULL,0
+57,32,"Do you have any hobbies?","Anh có sở thích gì không?",NULL,0
+58,32,"Do you have some change ?","Cậu có tiền lẻ không?",NULL,0
+59,32,"Do you mind my smoking?","Tôi hút thuốc có phiền gì không ạ ?",NULL,0
+60,32,"Do you often work out.","Anh thường xuyên rèn luyện thân thể chứ ?",NULL,0
+61,32,"Do you speak English?","Cậu biết nói tiếng Anh k hông?",NULL,0
+62,32,"Don’t be so modest.","Đừng khiêm tốn thế .",NULL,0
+63,33,"Don’t bother.","Đừng có phiền phức nữa.",NULL,0
+64,33,"Don’t get me wrong.","Đừng hiểu lầm tôi",NULL,0
+65,33,"Don’t give up.","Đừng từ bỏ .",NULL,0
+66,33,"Don’t jump to conclusions.","Đừng đưa ra kết luận quá vội vàng .",NULL,0
+67,33,"Don’t let me down.","Đừng làm tôi thất vọng đấy .",NULL,0
+68,33,"Don’t make any mistakes.","Đừng có mắc sai lầm đấy .",NULL,0
+69,33,"Don’t mention it.","Không cần khách sáo!",NULL,0
+70,33,"Don’t miss the boat.","Đừng bỏ lỡ cơ hội .",NULL,0
+71,33,"Don’t take any chances.","Đừng trông chờ vào may mắn .",NULL,0
+72,33,"Don’t take it for granted.","Đừng coi đó là điều đương nhiên.",NULL,0
+73,33,"Don’t worry about it.","Đừng lo lắng về điều đó .",NULL,0
+74,33,"Easy come,easy go.","Nhanh đến , nhanh đi.",NULL,0
+75,33,"Enjoy your meal.","Ăn tự nhiên nhé !",NULL,0
+76,33,"Easier said than done.","Nói thường dễ hơn làm .",NULL,0
+77,33,"First come,first served.","Nhanh chân thì được.",NULL,0
+78,33,"For here or to go?","Ăn ở đây hay là mang về .",NULL,0
+79,33,"Forget it.","Quên đi ! Thôi đi ! Bỏ qua đi!",NULL,0
+80,33,"Forgive me.","Xin lượng thứ cho tôi.",NULL,0
+81,33,"Give me a call.","Gọi điện thoại cho tôi nhé !",NULL,0
+82,33,"Give my best to your family.","Gửi lời hỏi thăm của tôi tới toàn thể gia đình cậu nhé !",NULL,0
+83,33,"Have him return my call.","Bảo nó gọi lại cho tôi nhé !",NULL,0
+84,33,"Have you ever been to Japan?","Anh đã từng đến Nhật bao giờ chưa ?",NULL,0
+85,33,"Have you finished yet?","Cậu đã làm xong chưa?",NULL,0
+86,34,"Have you got anything larger?","Có cái nào lớn hơn chút nữa không ?",NULL,0
+87,34,"Have you got that?","Cậu hiểu ý tôi chứ ?",NULL,0
+88,34,"Have you heard from Mary?","Cậu có tin tức gì về Mary không?",NULL,0
+89,34,"He is in conference.","Anh ấy đang họp .",NULL,0
+90,34,"Help yourself,please.","Tự phục vụ nhé !",NULL,0
+91,34,"Hold your horses.","Kiên nhẫn một chút nghe!",NULL,0
+92,34,"How can I get in touch with you?","Tôi liên lạc vơi cậu bằng cách nào được?",NULL,0
+93,34,"How do I look?","Nhìn tôi thế nào ?",NULL,0
+94,34,"How is it going?","Tình hình thế nào ?",NULL,0
+95,34,"How late are you open?","Các anh mở cửa đến mấy giờ ?",NULL,0
+96,34,"How long did it last?","Đã kéo dài bao lâu rồi ?",NULL,0
+97,34,"How long will it take me to get there?","Tới đó mất bao lâu ?",NULL,0
+98,34,"How much is it?","Bao nhiêu tiền ?",NULL,0
+99,34,"How often do you eat out?","Anh có thường ra ngoài ăn không ?",NULL,0
+100,34,"I apologize.","Tôi xin lỗi",NULL,0
+101,34,"I appreciate your invitation.","Cám ơn lời mời của anh.",NULL,0
+102,35,"I assure you.","Tôi đảm bảo với anh đấy !",NULL,0
+103,35,"I bet you can.","Tôi tin chắc rằng anh có thể làm được.",NULL,0
+104,35,"I can manage.","Tôi có thể tự mình ứng phó được .",NULL,0
+105,35,"I can’t afford it.","Tôi mua không nổi .",NULL,0
+106,35,"I can’t believe it.","Quả thật tôi không dám tin .",NULL,0
+107,35,"I can’t resist the temptation.","Tôi không tài nào cưỡng lại được sựcám dỗ .",NULL,0
+108,35,"I can’t stand it.","Tôi không thể chịu đựng nổi nữa .",NULL,0
+109,35,"I can’t tell.","Tôi cũng không dám chắc .",NULL,0
+110,35,"I couldn’t agree more.","Tôi hoàn toàn đồng ý.",NULL,0
+111,35,"I couldn’t get through.","Tôi không gọi được .",NULL,0
+112,35,"I couldn’t help it.","Tôi cũng hết cách .",NULL,0
+113,35,"I didn’t mean to.","Tôi không cố ý",NULL,0
+114,35,"I don’t k now for sure.","Tôi không dám khẳng định .",NULL,0
+115,35,"I enjoy your company.","Tôi thích làm việc với anh .",NULL,0
+116,35,"I enjoyed it very much.","Tôi rất thích .",NULL,0
+117,35,"I envy you.","Tôi rất ngưỡng mộ anh.",NULL,0
+118,35,"I feel like having some dumplings","Tôi rất muốn ăn xủi cảo.",NULL,0
+119,35,"I feel terrible about it.","Tôi rất lấy làm tiếc. Tôi xin lỗi .",NULL,0
+120,35,"I feel the same way.","Tôi cũng có cùng cảm giác như vậy .",NULL,0
+121,35,"I have a complaint.","Tôi cần phải kiện .",NULL,0
+122,35,"I have nothing to do with it.","Điều đó chẳng có liên quan gì đến tôi cả.",NULL,0
+123,35,"I haven’t the slightest idea.","Nó chẳng biết cái quái gì cả .",NULL,0
+124,35,"I hope you’ll forgive me.","Tôi hi vọng cậu sẽ tha thứ cho tôi .",NULL,0
+125,35,"I know the feeling.","Tôi rất hiểu cảm giác đó .",NULL,0
+126,36,"I mean what I say.","Tôi biết những gì mình nói .",NULL,0
+127,36,"I owe you one.","Tôi nợ anh .",NULL,0
+128,36,"I really regret it.","Quả thật tôi rất lấy làm tiếc .",NULL,0
+129,36,"I suppose so.","Tôi nghĩ là như vậy .",NULL,0
+130,36,"I thought so, too.","Tôi cũng cho là như vậy",NULL,0
+131,36,"I understand completely.","Tôi hoàn toàn hiểu được.",NULL,0
+132,36,"I want to report a theft.","Tôi muốn báo công an về vụ án ăn trộm .",NULL,0
+133,36,"I want to reserve a room.","Tôi muốn đặt một phòng .",NULL,0
+134,36,"I was just about to call you.","Tôi đang chuẩn bị gọi cho anh .",NULL,0
+135,36,"I was moved","Tôi rất cảm động .",NULL,0
+136,36,"I wasn’t aware of that.","Tôi không ý thức được điều đó .",NULL,0
+137,36,"I wasn’t born yesterday.","Tôi không phải là đứa trẻ lên ba .",NULL,0
+138,36,"I wish I could.","Ước gì tôi có thể .",NULL,0
+139,36,"I wouldn’t worry a bout it, if I we’re you","Nếu tôi là anh , tôi sẽ chẳng có gì phải lo lắng vì nó cả .",NULL,0
+140,36,"I’d like a refund.","Tôi muốn được trả lại tiền .",NULL,0
+141,36,"I’d like to depos it some money.","Tôi muốn gửi ít tiền .",NULL,0
+142,36,"I’d like to make a reservation.","Tôi muốn đặt vé .",NULL,0
+143,36,"I’ll be right with you.","Tôi tới ngay đây .",NULL,0
+144,36,"I’ll check it.","Để tôi đi kiểm tra lại .",NULL,0
+145,36,"I’ll do my best.","Tôi sẽ cố gắng hết sức.",NULL,0
+146,36,"I’ll get it.","Để tôi đi nghe điện thoại .",NULL,0
+147,36,"I’ll give you a hand.","Tôi sẽ giúp cậu một tay.",NULL,0
+148,36,"I’ll have to see about that.","Về việc này tôi phải nghĩ một chút rồi mới quyết định .",NULL,0
